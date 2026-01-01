@@ -5,7 +5,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class ChatMessage {
+public class ChatMessage 
+{
     private Long id;
     private String sender;
     private String content;
