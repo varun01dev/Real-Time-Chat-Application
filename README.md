@@ -1,11 +1,11 @@
-#💬  Real-Time Chat Application
+# 💬  Real-Time Chat Application
 
 A real-time web-based chat application built using Java and Spring Boot, enabling multiple users to exchange messages instantly using WebSocket and STOMP.
 The project demonstrates bidirectional communication, server-side message routing, and dynamic UI updates without page reloads.
 
 
 
-##🚀 Key Highlights
+## 🚀 Key Highlights
 
 Real-time messaging between multiple connected clients
 WebSocket communication using STOMP protocol
@@ -15,7 +15,7 @@ Clean separation of backend messaging logic and frontend rendering
 
 
 
-##🧩 Tech Stack
+## 🧩 Tech Stack
 
   Backend:
   Java,
@@ -37,7 +37,7 @@ IntelliJ IDEA
 
 
 
-##🏗️ Application Architecture (Overview)
+## 🏗️ Application Architecture (Overview)
 
 1. WebSocket Configuration
 Defines WebSocket connection endpoints
@@ -58,7 +58,7 @@ Dynamically updates the chat window in real time
 
 
 
-##🔄 How the Application Works
+## 🔄 How the Application Works
 
 Client connects to the server using WebSocket
 Client subscribes to a shared topic
@@ -68,7 +68,7 @@ All connected clients receive updates instantly
 
 
 
-##▶️ Running the Application Locally
+## ▶️ Running the Application Locally
 
 Step 1: Clone the Repository
 git clone https://github.com/varun01dev/Real-Time-Chat-Application.git
@@ -87,7 +87,7 @@ Open multiple browser tabs to simulate multiple users.
 
 
 
-##⚠️ Scope & Limitations
+## ⚠️ Scope & Limitations
 
 No database or message persistence
 No authentication or authorization
@@ -96,13 +96,13 @@ Designed for learning and demonstration purposes
 
 
 
-##🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 Understanding WebSocket-based real-time communication
 Implementing message routing and broadcasting in Spring Boot
 Integrating backend messaging with frontend UI
 Working with STOMP protocol and SockJS fallback
 
-🔮 Possible Enhancements
+## 🔮 Possible Enhancements
 User authentication,
 Private chat rooms,
 Message persistence,
