@@ -17,21 +17,21 @@ Clean separation of backend messaging logic and frontend rendering
 
 ## 🧩 Tech Stack
 
-  Backend:
+   * Backend:
   Java,
   Spring Boot,
   Spring WebSocket,
   STOMP Protocol,
   Spring Messaging
   
-Frontend:
+ * Frontend:
 Thymeleaf,
 JavaScript (ES6),
 SockJS,
 Bootstrap,
 HTML, CSS
 
-Build & Tools:
+ * Build & Tools:
 Maven,
 IntelliJ IDEA
 
@@ -60,11 +60,11 @@ Dynamically updates the chat window in real time
 
 ## 🔄 How the Application Works
 
-Client connects to the server using WebSocket
-Client subscribes to a shared topic
-User sends a message from the UI
-Backend processes and broadcasts the message
-All connected clients receive updates instantly
+1. Client connects to the server using WebSocket
+2. Client subscribes to a shared topic
+3. User sends a message from the UI
+4. Backend processes and broadcasts the message
+5. All connected clients receive updates instantly
 
 
 
@@ -86,24 +86,14 @@ http://localhost:8080/chat
 Open multiple browser tabs to simulate multiple users.
 
 
-
-## ⚠️ Scope & Limitations
-
-No database or message persistence
-No authentication or authorization
-Uses in-memory message broker
-Designed for learning and demonstration purposes
-
-
-
 ## 🎯 Learning Outcomes
-Understanding WebSocket-based real-time communication
-Implementing message routing and broadcasting in Spring Boot
-Integrating backend messaging with frontend UI
-Working with STOMP protocol and SockJS fallback
+ * Understanding WebSocket-based real-time communication
+ * Implementing message routing and broadcasting in Spring Boot
+ * Integrating backend messaging with frontend UI
+ * Working with STOMP protocol and SockJS fallback
 
 ## 🔮 Possible Enhancements
-User authentication,
-Private chat rooms,
-Message persistence,
-UI validation and improvements
+ * User authentication
+ * Private chat rooms
+ * Message persistence
+ * UI validation and improvements
